@@ -1,6 +1,5 @@
 {
   "posts": [
-    {
      {
   "responseId": "684e26f5-ea51-4daf-80a8-c037fd09362d",
   "queryResult": {
@@ -57,7 +56,6 @@
   },
   "session": "projects/chatsbottes-4ac84/agent/sessions/715a3d7c-8214-fc87-8876-329453b0c949",
   "id": 2
-}
     }
   ],
   "profile": {
