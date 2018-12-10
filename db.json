@@ -1,8 +1,63 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "hello"
+     {
+  "responseId": "684e26f5-ea51-4daf-80a8-c037fd09362d",
+  "queryResult": {
+    "queryText": "0666666666",
+    "action": "demande-renouvellement-intent.fournir-msisdn-intent",
+    "parameters": {
+      "msisdn": "0666666666"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "ça marche mon pote"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/chatsbottes-4ac84/agent/sessions/715a3d7c-8214-fc87-8876-329453b0c949/contexts/demande-renouvellement-intent-custom-followup",
+        "lifespanCount": 2,
+        "parameters": {
+          "msisdn": "0666666666",
+          "msisdn.original": "0666666666"
+        }
+      },
+      {
+        "name": "projects/chatsbottes-4ac84/agent/sessions/715a3d7c-8214-fc87-8876-329453b0c949/contexts/eligibilite-renouvellement-intent-followup",
+        "lifespanCount": 2,
+        "parameters": {
+          "msisdn": "0666666666",
+          "msisdn.original": "0666666666"
+        }
+      },
+      {
+        "name": "projects/chatsbottes-4ac84/agent/sessions/715a3d7c-8214-fc87-8876-329453b0c949/contexts/demande-renouvellement-intent-followup",
+        "lifespanCount": 1,
+        "parameters": {
+          "msisdn": "0666666666",
+          "msisdn.original": "0666666666"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/chatsbottes-4ac84/agent/intents/6ac76249-1a0a-476a-b165-16ff301fff56",
+      "displayName": "eligibilite-renouvellement-intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "fr"
+  },
+  "originalDetectIntentRequest": {
+    "payload": {}
+  },
+  "session": "projects/chatsbottes-4ac84/agent/sessions/715a3d7c-8214-fc87-8876-329453b0c949",
+  "id": 2
+}
     }
   ],
   "profile": {
